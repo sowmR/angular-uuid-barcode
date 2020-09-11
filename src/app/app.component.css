@@ -1,0 +1,89 @@
+:host {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  color: #333;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 8px 0;
+}
+
+p {
+  margin: 0;
+}
+
+.spacer {
+  flex: 1;
+}
+.navbar {
+    background-color: var(--gray) !important;
+}
+
+#social-media-logo {
+  height: 40px;
+  margin: 0 16px;
+}
+
+#social-media-logo:hover {
+  opacity: 0.8;
+}
+
+.button-primary {
+    height: 40px;
+    width: auto;
+    background-color: var(--button-blue);
+    color: var(--white-text-normal);
+    font-size: 16px;
+    border-radius: 15px 15px;
+    border: none !important;
+    margin: 16px;
+}
+.button-primary:hover {
+    background-color: var(--button-blue-hover);
+    color:var(--white-text-highlighted);
+    border: none !important;
+}
+.button-primary.active {
+    border: none;
+}
+
+
+.barcode-container {
+    min-width: 400px;
+    height: 100px;
+    line-height: 24px;
+}
+.barcode-item {
+    min-width: 400px;
+    height: 100px;
+    background-color:var(--pastel-5);
+    margin: 8px;
+    padding:8px;
+    align-content: center;
+}
+
+.barcode-text {
+    font: var(--header-2);
+    color:var(--red);
+}
+
+
+
+/* Responsive Styles */
+@media screen and (max-width: 767px) {
+
+  
+}
+
+@media screen and (max-width: 575px) {
+  
+    
+}

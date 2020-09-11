@@ -1,0 +1,60 @@
+/* You can add global styles to this file, and also import other style files */
+html, html [theme="pink"] {
+    --english-vermillion: #cc444bff;
+--indian-red: #da5552ff;
+--candy-pink: #df7373ff;
+--pastel-pink: #e39695ff;
+--pastel-pink-2: #e4b1abff;
+
+/* RGB */
+--pastel-1: rgb(204, 68, 75);
+--pastel-2: rgb(218, 85, 82);
+--pastel-3: rgb(223, 115, 115);
+--pastel-4: rgb(227, 150, 149);
+--pastel-5: rgb(228, 177, 171);
+--gray:rgb(107, 129, 140);
+--white:rgb(255,255,255);
+--blue:rgb(8, 65, 92);
+--red:rgb(204, 41, 54);
+--beigh: rgb(241, 191, 152);
+--button-blue: #0C648D;
+--button-blue-hover:#08415C;
+
+/* SCSS Gradient */
+--gradient-top: linear-gradient(0deg, #cc444bff, #da5552ff, #df7373ff, #e39695ff, #e4b1abff);
+--gradient-right: linear-gradient(90deg, #cc444bff, #da5552ff, #df7373ff, #e39695ff, #e4b1abff);
+--gradient-bottom: linear-gradient(180deg, #cc444bff, #da5552ff, #df7373ff, #e39695ff, #e4b1abff);
+--gradient-left: linear-gradient(270deg, #cc444bff, #da5552ff, #df7373ff, #e39695ff, #e4b1abff);
+--gradient-top-right: linear-gradient(45deg, #cc444bff, #da5552ff, #df7373ff, #e39695ff, #e4b1abff);
+--gradient-bottom-right: linear-gradient(135deg, #cc444bff, #da5552ff, #df7373ff, #e39695ff, #e4b1abff);
+--gradient-top-left: linear-gradient(225deg, #cc444bff, #da5552ff, #df7373ff, #e39695ff, #e4b1abff);
+--gradient-bottom-left: linear-gradient(315deg, #cc444bff, #da5552ff, #df7373ff, #e39695ff, #e4b1abff);
+--gradient-radial: radial-gradient(#cc444bff, #da5552ff, #df7373ff, #e39695ff, #e4b1abff);
+
+/* Fonts*/
+--header-1: normal 400 24px arial, sans-serif;
+--header-2: normal 600 22px arial, sans-serif;
+--header-3: normal 700 20px arial, sans-serif;
+--title-1: normal 400 18px arial, sans-serif;
+--title-2: normal 400 16px arial, sans-serif;
+--content-1: normal 550 14px arial, sans-serif;
+--content-2: normal 400 14px arial, sans-serif;
+--content-3:normal 400 12px arial, sans-serif;
+--white-text-highlighted: rgba(255,255,255,9);
+--white-text-normal: rgba(238, 229, 233,0.9);
+--highlighted-text: rgba(0,0,0,0.9);
+--normal-text: rgba(0,0,0,0.7);
+--base-text: rgba(0,0,0,0.5);
+--disabled-text: rgba(0,0,0,0.1);
+
+/* Opacities */
+--opacity-0: 0;
+--opacity-1: 1;
+--opacity-2: 0.9;
+--opacity-3: 0.7;
+--opacity-4: 0.5;
+--opacity-5: 0.3;
+--opacity-6: 0.1;
+--opacity-7: 0.05;
+
+}
