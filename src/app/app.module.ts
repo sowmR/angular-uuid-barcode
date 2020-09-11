@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import {ReferenceComponent} from './components/reference/reference.component';
+import {BarcodeComponent} from './components/barcode/barcode.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BarcodeComponent,
+    ReferenceComponent
   ],
   imports: [
     BrowserModule,

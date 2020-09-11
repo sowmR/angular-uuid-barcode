@@ -1,0 +1,11 @@
+.heading-text {
+    color:var(--pastel-1);
+}
+.list-link {
+    color: var(--blue);
+    font: var(--title-2);
+}
+.list-link:hover {
+    color: var(--blue);
+    font: var(--title-1);
+}

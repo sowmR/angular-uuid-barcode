@@ -1,0 +1,17 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12">
+            <span class="h2 heading-text"> Reference Links</span>
+        </div>
+        <div class="col-sm-12">
+            <p class="lead"> Here the list of link for reference to the dependencies used in this application.</p>
+        </div>
+        <div class="col-sm-12">
+            <div class="list-group">
+                <a class="list-group-item list-group-item-action list-link" *ngFor="let r of referenceLink" [href]="r.url">
+                  {{r.text}}
+                </a>
+              </div>
+        </div>
+    </div>
+</div>

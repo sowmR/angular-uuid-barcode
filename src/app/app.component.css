@@ -36,45 +36,10 @@ p {
   opacity: 0.8;
 }
 
-.button-primary {
-    height: 40px;
-    width: auto;
-    background-color: var(--button-blue);
-    color: var(--white-text-normal);
-    font-size: 16px;
-    border-radius: 15px 15px;
-    border: none !important;
-    margin: 16px;
+.copyright {
+  color: var(--white);
+  font:var(--content-1);
 }
-.button-primary:hover {
-    background-color: var(--button-blue-hover);
-    color:var(--white-text-highlighted);
-    border: none !important;
-}
-.button-primary.active {
-    border: none;
-}
-
-
-.barcode-container {
-    min-width: 400px;
-    height: 100px;
-    line-height: 24px;
-}
-.barcode-item {
-    min-width: 400px;
-    height: 100px;
-    background-color:var(--pastel-5);
-    margin: 8px;
-    padding:8px;
-    align-content: center;
-}
-
-.barcode-text {
-    font: var(--header-2);
-    color:var(--red);
-}
-
 
 
 /* Responsive Styles */
