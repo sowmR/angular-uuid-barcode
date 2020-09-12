@@ -14,6 +14,10 @@ export class ReferenceComponent {
         {
             url: 'https://github.com/lindell/JsBarcode',
             text: 'JS-Barcode'
+        },
+        {
+            url: 'https://github.com/techiediaries/ngx-qrcode',
+            text: 'ngx-QRcode'
         }
     ];
 }

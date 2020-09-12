@@ -8,6 +8,7 @@ import * as JsBarcode from 'jsbarcode';
     templateUrl: './barcode.component.html',
     styleUrls: ['./barcode.component.css']
 })
+
 export class BarcodeComponent implements OnInit {
     newUUID = '';
     constructor() {}

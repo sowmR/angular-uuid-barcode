@@ -1,0 +1,16 @@
+<div class="container-fluid">
+    <div class="jumbotron">
+        <h1> QR Code Sample</h1>
+        <button class="primary" (click)="loadQRCode()"> Load Sample</button>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="QRCode-Container">
+                    <ngx-qrcode [elementType]="elementType" [errorCorrectionLevel]="correctionLevel" [value]="value"
+                        cssClass="bshadow"></ngx-qrcode>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

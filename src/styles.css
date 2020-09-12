@@ -31,6 +31,10 @@ html, html [theme="pink"] {
 --gradient-bottom-left: linear-gradient(315deg, #cc444bff, #da5552ff, #df7373ff, #e39695ff, #e4b1abff);
 --gradient-radial: radial-gradient(#cc444bff, #da5552ff, #df7373ff, #e39695ff, #e4b1abff);
 
+/* shadows*/
+--shadow-1: inset 2px 2px 2px 2px rgba(0,0,0,0.05);
+--shadow-2: inset 2px 2px 2px 2px rgba(0,0,0,0.3);
+--shadow-2: inset 2px 2px 2px 2px rgba(228, 177, 171,0.3);
 /* Fonts*/
 --header-1: normal 400 24px arial, sans-serif;
 --header-2: normal 600 22px arial, sans-serif;
